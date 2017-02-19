@@ -1,14 +1,18 @@
 {
-    "author": "gagerdude@gmail.com",
-    "dependencies": {
-        "weekday": "^3.0.1"
-    },
+    "author": "trpotter72@gmail.com",
+    "dependencies": {},
     "keywords": [],
-    "name": "menuexample",
+    "name": "woah",
     "pebble": {
-        "displayName": "MenuExample",
+        "displayName": "Woah",
         "enableMultiJS": true,
-        "messageKeys": [],
+        "messageKeys": {
+            "menuSize": 3,
+            "menudata": 2,
+            "requestmenu": 1,
+            "status": 0,
+            "weekend": 4
+        },
         "projectType": "native",
         "resources": {
             "media": []
@@ -16,9 +20,10 @@
         "sdkVersion": "3",
         "targetPlatforms": [
             "aplite",
-            "basalt"
+            "basalt",
+            "chalk"
         ],
-        "uuid": "383786bc-280a-47f9-bb61-5c4ae81dae87",
+        "uuid": "764fbb73-1028-4876-8b6b-e40aa08d50b0",
         "watchapp": {
             "watchface": false
         }
